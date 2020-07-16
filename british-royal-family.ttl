@@ -1,0 +1,20 @@
+## Turtle Start ##
+@prefix rel: <http://purl.org/vocab/relationship/> .
+  <http://dbpedia.org/resource/Prince_William_of_Wales>
+    rel:siblingOf 
+    <http://dbpedia.org/resource/Prince_Harry_of_Wales> 
+    .
+  <http://dbpedia.org/resource/Elizabeth_Bowes-Lyon> 
+    rel:ancestorOf
+    <http://dbpedia.org/resource/Elizabeth_II_of_the_United_Kingdom> 
+    .
+  <http://dbpedia.org/resource/Elizabeth_II_of_the_United_Kingdom>
+    rel:ancestorOf 
+    <http://dbpedia.org/resource/Charles,_Prince_of_Wales> 
+    .
+  <http://dbpedia.org/resource/Charles,_Prince_of_Wales>
+    rel:ancestorOf
+    <http://dbpedia.org/resource/Prince_William_of_Wales> ,
+    <http://dbpedia.org/resource/Prince_Harry_of_Wales> 
+  .
+## Turtle End ##
